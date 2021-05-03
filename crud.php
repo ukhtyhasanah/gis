@@ -65,53 +65,52 @@
         </div>
 
         <div class="row">
-    <div class="col-8">
-      <a href=" {{asset('tambah')}}"  class="btn btn-danger" ><i class="fas fa-plus"></i></i> Tambah</a>
-    </div>
-    <div class="col-4">
-      <form class="d-flex justify-content-end pt-2 pb-2">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-primary me-2" type="submit"><i class="fas fa-search"></i></button>
-        <button class="btn btn-success me-2" type="submit"><i class="fas fa-sync-alt"></i></button>
-        
-      </form>
-    </div>
-  </div>  
+          <div class="col-8">
+            <a href=" {{asset('tambah')}}" class="btn btn-danger"><i class="fas fa-plus"></i></i> Tambah</a>
+          </div>
+          <div class="col-4">
+            <form class="d-flex justify-content-end pt-2 pb-2">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary me-2" type="submit"><i class="fas fa-search"></i></button>
+              <button class="btn btn-success me-2" type="submit"><i class="fas fa-sync-alt"></i></button>
 
-  <!-- search -->
-  
-  <!-- table -->
-  <?php require("koneksi.php"); ?>
-  <table class="table table-striped">
-    <thead>
-      <tr>
-        <th scope="col">No</th>
-        <th scope="col">Nama</th>
-        <th scope="col">Alamat</th>
-        <th scope="col">Longitude</th>
-        <th scope="col">Latitude</th>
-        <th scope="col " colspan="3">Aksi</th>
-      </tr>
-    </thead>
-    <tbody>   
-    <?php
+            </form>
+          </div>
+        </div>
+
+        <!-- search -->
+
+        <!-- table -->
+        <?php require("koneksi.php"); ?>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">No</th>
+              <th scope="col">Nama</th>
+              <th scope="col">Alamat</th>
+              <th scope="col">Longitude</th>
+              <th scope="col">Latitude</th>
+              <th scope="col " colspan="3">Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <?php
             $query1 = "SELECT * FROM tempat_wisata";
             $sql1 = mysqli_query($con, $query1);
 
             while ($row = mysqli_fetch_array($sql1)) {
-             echo "<tr><th>".$row['id']."</th>
-             <td>".$row['nama']."</td>
-             <td>".$row['alamat']."</td>
-             <td>".$row['longitude']."</td>
-             <td>".$row['latitude']."</td>
-             <td> <a href='http://localhost/UAS-GIS/proses_delete.php?id_del=". $row['id']."'
+              echo "<tr><th>" . $row['id'] . "</th>
+             <td>" . $row['nama'] . "</td>
+             <td>" . $row['alamat'] . "</td>
+             <td>" . $row['longitude'] . "</td>
+             <td>" . $row['latitude'] . "</td>
+             <td> <a href='http://localhost/UAS-GIS/proses_delete.php?id_del=" . $row['id'] . "'
              class = 'btn btn-danger'>Delete</a></td>";
+            }
+            ?>
 
-         }
-         ?>
-      
-    </tbody>
-  </table>
+          </tbody>
+        </table>
 
 
       </div>
@@ -142,6 +141,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Tes Ibram -->
 
 </body>
 
