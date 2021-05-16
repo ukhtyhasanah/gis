@@ -132,32 +132,32 @@
         <div class="row portfolio-container " data-aos="fade-up">
           <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/galery/Batu Night Spectacular (BNS).jpg" class="img-fluid" alt="">
             </div>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/galery/Goa pinus.jpg" class="img-fluid" alt="">
             </div>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/galery/Paralayang Batu.jpg" class="img-fluid" alt="">
             </div>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/galery/jatim park 2.jpg" class="img-fluid" alt="">
             </div>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/galery/Predator Fun Park.jpg" class="img-fluid" alt="">
             </div>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/galery/Museum Angkut.jpg" class="img-fluid" alt="">
             </div>
           </div>
 
